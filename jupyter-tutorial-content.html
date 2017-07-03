@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jupyter Notebook Tutorial</title>
+    <meta name="viewport" content="width=device-width">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css">
+
+
+</head>
+
+
+    <body>
+
+    <div class="page-content">
+      <div class="wrap">
+      <div class="post">
+
+  <header class="post-header">
+    <h1>Basics of Jupyter Notebook</h1>
+  </header>
+Adapted from Jupyter Notebook tutorial <a href="https://compsci697l.github.io/notes/jupyter-tutorial/">(https://compsci697l.github.io/notes/jupyter-tutorial/)</a>.
+  <article class="post-content">
+  <p>In this workshop, we will use machine learning service provided by Center for eResearch. 
+      This service provides access to a <a href="http://jupyter.org/" target="_blank">Jupyter Notebook</a>. 
+   A Jupyter notebook lets you write and execute Python
+code in your web browser. Jupyter notebooks make it very easy to tinker with
+code and execute it in bits and pieces; for this reason Jupyter notebooks are
+widely used in scientific computing.</p>
+
+If you are new to Jupyter notebook environment and want to get the feel of it you can <a href="http://try.jupyter.org" target="_blank">click here </a> to try it in your browser. Alternatively, you can easily install it in your computer using following commands.
+
+<p>From the command line, the following
+will install Jupyter:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>pip install jupyter
+</code></pre>
+</div>
+
+<p>Or the following if you use conda/Anaconda:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>conda install jupyter
+</code></pre>
+</div>
+
+<p>Once you have Jupyter installed, start it with this command:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>jupyter notebook
+</code></pre>
+</div>
+
+<p>Once Jupyter is running, point your web browser at http://localhost:8888 to
+start using Jupyter notebooks. If everything worked correctly, you should
+see a screen like this, showing all available Jupyter notebooks in the current
+directory:</p>
+
+<div class="fig figcenter">
+  <img src="img/file-browser.png" />
+</div>
+
+<p>If you click through to a notebook file, you will see a screen like this:</p>
+
+<div class="fig figcenter">
+  <img src="img/notebook-1.png" />
+</div>
+
+<p>A Jupyter notebook is made up of a number of <strong>cells</strong>. Each cell can contain
+Python code. You can execute a cell by clicking on it and pressing <code class="highlighter-rouge">Shift-Enter</code>.
+When you do so, the code in the cell will run, and the output of the cell
+will be displayed beneath the cell. For example, after running the first cell
+the notebook looks like this:</p>
+
+<div class="fig figcenter">
+  <img src="img/notebook-2.png" />
+</div>
+
+<p>Global variables are shared between cells. Executing the second cell thus gives
+the following result:</p>
+
+<div class="fig figcenter">
+  <img src="img/notebook-3.png" />
+</div>
+
+<p>By convention, Jupyter notebooks are expected to be run from top to bottom.
+Failing to execute some cells or executing cells out of order can result in
+errors:</p>
+
+<div class="fig figcenter">
+  <img src="img/notebook-error.png" />
+</div>
+
+<p>After you have modified a Jupyter notebook for one of the assignments by
+modifying or executing some of its cells, remember to <strong>save your changes!</strong></p>
+
+<p>This has only been a brief introduction to Jupyter Notebook, but it should
+be enough to get you up and running on the assignments for this course. Check out 
+<a href="http://nbviewer.jupyter.org/github/jupyter/notebook/tree/master/docs/source/examples/Notebook/">these notebooks</a> 
+if you want to learn more.</p>
+
+  </article>
+
+</div>
+      </div>
+    </div>
+</body>
+</html>
