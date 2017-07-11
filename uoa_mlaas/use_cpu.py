@@ -1,6 +1,7 @@
-from keras.backend.tensorflow_backend import set_session
-import tensorflow as tf
-
+import os
 
 def use_cpu():
-    set_session(tf.Session(config=tf.ConfigProto(device_count={'GPU': 0})))
+    """Sets keras/tensorflow to use CPU"""
+
+    os.environ["CUDA_VISIBLE_DEVICES"] = ''
+
