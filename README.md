@@ -1,5 +1,7 @@
 # Winter Bootcamp Deep Learning Tutorials
 
+Based on exercises from http://machinelearningmastery.com/
+
 ## Dependencies
 * Python 3
 * Jupyter Notebook
